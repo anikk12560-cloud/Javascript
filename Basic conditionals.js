@@ -66,3 +66,43 @@ if(a > b && a > c){
 } else {
     console.log(c + " is the largest");
 }
+
+//problem 6:Simple Login System:
+let username = prompt("Enter your username:");
+let password = prompt("Enter your password:");
+
+if(username === "admin" && password === "1234"){
+    console.log("Login Successful");
+} else {
+    console.log("Wrong username or password");
+}
+
+//Problem 7:Simple Calculator:
+let num1 = Number(prompt("Enter first number:"));
+let num2 = Number(prompt("Enter second number:"));
+let operator = prompt("Enter operator (+, -, *, /):");
+
+if(operator === "+"){
+    console.log("Result:", num1 + num2);
+}
+else if(operator === "-"){
+    console.log("Result:", num1 - num2);
+}
+else if(operator === "*"){
+    console.log("Result:", num1 * num2);
+}
+else if(operator === "/"){
+    console.log("Result:", num1 / num2);
+}
+else{
+    console.log("Invalid operator");
+}
+//problem 8:Simple Discount System
+let year = Number(prompt("Enter year:"));
+
+if(year % 4 === 0){
+    console.log("Leap year");
+}
+else{
+    console.log("Not a leap year");
+}
