@@ -97,7 +97,7 @@ else if(operator === "/"){
 else{
     console.log("Invalid operator");
 }
-//problem 8:Simple Discount System
+//problem 8: Leap year: 
 let year = Number(prompt("Enter year:"));
 
 if(year % 4 === 0){
